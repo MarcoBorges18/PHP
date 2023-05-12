@@ -1,0 +1,249 @@
+* { 
+
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	-ms-box-sizing:border-box; 
+	-o-box-sizing:border-box; 
+	box-sizing:border-box; 
+
+}
+
+html { width: 100%; height:100%; overflow:hidden; }
+
+body { 
+    margin: 0;
+	width: 100%;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+    background: #092756;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(100deg, #1e3457, #3263b0);
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.btn {
+    
+    width:100%;
+    padding: 0.6em 1em;
+    cursor: pointer;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    text-decoration: none;
+    font-size:1.1em; 
+    color: #fff;
+    border-radius: 6px;
+    border: none; 
+}
+
+.zoom-shadow {
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.zoom-shadow:hover, .zoom-shadow:focus, .zoom-shadow:active {
+
+  box-shadow: 0 13px 8px -8px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+
+}
+
+
+.login { 
+
+	width:300px;
+	height:250px;
+    margin: auto;
+
+}
+
+.login h1 { 
+
+	color:#fff; 
+	text-shadow: 0 0 10px rgba(0,0,0,0.3); 
+	letter-spacing:1px; 
+	text-align:center; 
+
+}
+
+input { 
+
+width: 100%;
+margin-bottom: 10px;
+background: rgb(255, 255, 255);
+border: none;
+outline: none;
+padding: 10px;
+font-size: 16px;
+color: #213b65;
+border-radius: 6px;
+transition: .5s;
+
+}
+
+input:focus { background-color: #f0f0f0; }
+
+/*----------------------------------------------------------------*/
+
+h2{
+    color: white;
+}
+
+h1{
+    color: white;
+    padding-left: 15px;
+}
+/*----------------------------------------------------------------*/
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-top: 1px solid rgb(255, 254, 254);
+    text-align: center;
+}
+
+footer h2{
+    color: #ffffff;
+    padding-left: 5px;
+}
+/*----------------------------------------------------------------*/
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+a:hover{
+    color: rgb(16, 84, 231);
+}
+
+header h2{
+    margin: 0%;
+    left: 5%;
+    color: #ffffff;
+    padding: 5px;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-align: center;
+}
+/*----------------------------------------------------------------*/
+.resposta{
+    width: 300px;
+    height: 100px;
+    margin:auto;
+    color: white;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 15px;
+}
+/*----------------------------------------------------------------*/
+.Calculadora{
+    width:300px;
+	height:250px;
+    margin:auto
+}
+
+.Calculadora h1{
+    color:#fff; 
+	text-shadow: 0 0 10px rgba(0,0,0,0.3); 
+	letter-spacing:1px; 
+	text-align:center; 
+}
+
+.resposta_calc{
+    width: 300px;
+    height: 100px;
+    margin:auto;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    border: 3px solid;
+    border-radius: 15px;
+    font-size: 50px;
+}
+/*----------------------------------------------------------------*/
+
+.Temporizador{
+    width:300px;
+	height:250px;
+    margin: auto
+}
+
+.Temporizador h1{
+    color:#fff; 
+	text-shadow: 0 0 10px rgba(0,0,0,0.3); 
+	letter-spacing:1px; 
+	text-align:center; 
+}
+
+.Temp{
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-radius: 15px;
+    font-size: 20px;
+}
+/*----------------------------------------------------------------*/
+.links{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+/*----------------------------------------------------------------*/
+.erro{
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.Calculadora2{
+    width:300px;
+	height:250px;
+    margin:auto
+}
+
+.Calculadora2 h1{
+    color:#fff; 
+	text-shadow: 0 0 10px rgba(0,0,0,0.3); 
+	letter-spacing:1px; 
+	text-align:center; 
+}
+
+.resposta_calc2{
+    width: 300px;
+    height: 100px;
+    margin:auto;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    border: 3px solid;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.erro{
+    font-size: 25px; 
+}
